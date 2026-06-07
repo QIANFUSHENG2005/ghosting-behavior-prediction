@@ -6,7 +6,7 @@ import xgboost # Required for loading XGBoost model
 
 # --- Model and Feature Loading (inside the Streamlit app) ---
 
-model_filename = 'best_model(1) (1).pkl'
+model_filename = 'best_model.pkl'
 
 try:
     with open(model_filename, 'rb') as file:
